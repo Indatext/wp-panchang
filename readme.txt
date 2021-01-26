@@ -1,6 +1,6 @@
 === Panchang ===
 Contributors: Prokerala
-Tags: astrology, panchang, prokerala
+Tags: jyotiṣa, panchang, prokerala
 Requires at least: 5.5
 Tested up to: 5.6
 Stable tag: 1.0.0
@@ -11,7 +11,7 @@ Add today's panchang to your blog.
 
 == Description ==
 
-Easily add today's panchang to your blog, powered by Prokerala's astrology API.
+Easily add today's panchang to your blog, powered by Prokerala's jyotiṣa API.
 
 = Features =
 * Free
