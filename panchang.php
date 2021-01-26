@@ -31,6 +31,7 @@
 Plugin Name: Panchang
 Plugin URI: http://wordpress.org/plugins/panchang/
 Description: Display today's panchang using Prokerala API.
+Text Domain: panchangam
 Author: Prokerala
 Version: 1.0.0
 Author URI: https://www.prokerala.com
