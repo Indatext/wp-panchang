@@ -36,7 +36,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 ?>
 <div class="pk-panchang-wrapper">
     <?php if ( ! empty( $result ) ) : ?>
-        <h2 class="pk-panchang-text-center">Today's Panchang</h2>
+        <h2 class="pk-panchang-text-center"><?php _e('Panchang for today','panchangam');?></h2>
         <div class="pk-panchang-panchang-details">
             <span class="pk-panchang-block"><b>Location</b> : <?php echo $location; // phpcs:ignore WordPress.Security.EscapeOutput ?></span>
             <span class="pk-panchang-block"><b>Vaara</b> : <?php echo $result->vaara; // phpcs:ignore WordPress.Security.EscapeOutput ?></span>
@@ -61,7 +61,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
             <hr>
             <table class="pk-panchang-table pk-panchang-table-responsive-sm">
-                <tr class="pk-panchang-alert-success pk-panchang-text-center"><td colspan="2">Auspicious Timing</td></tr>
+                <tr class="pk-panchang-alert-success pk-panchang-text-center"><td colspan="2"><?php _e('Auspicious Timing','panchangam');?></td></tr>
                 <?php foreach ( $result->auspicious_period as $muhurat ) : ?>
                     <tr>
                         <td><?php echo ucwords( $muhurat->name ); // phpcs:ignore WordPress.Security.EscapeOutput ?></td><td>
